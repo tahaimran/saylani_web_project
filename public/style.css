@@ -1,0 +1,264 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.top{
+    background-color: rgb(93, 151, 245);
+    width: 100%;
+    padding-bottom: -10px;
+}
+.socialicons li a{
+    text-decoration: none;
+    color: white;
+}
+.socialicons li{
+    display: inline-flex;
+    margin: 1px;
+    padding: 5px;
+}
+
+.socialicons li:hover{
+  background-color: #5959e2;
+  transition: 0.5s;
+}
+.socialicons{
+    width: 25%;
+    margin-left: 10px;
+
+   
+}
+.msg{
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+
+}
+.buttontop btn{
+    width: 10px;
+    height: 10px;
+    
+}
+.buttontop li {
+    list-style: none;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.buttontop sm{
+  padding: .2rem .8rem;
+  font-size: .8rem;
+  line-height: 1.5;
+
+  
+}
+
+/* main nav */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar {
+    background-image: linear-gradient(to right,white,);
+    padding: 0 !important;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    padding-left: 15px;
+  }
+  
+  .navbar-nav li {
+    padding: 0 6px;
+  }
+  
+  .navbar-nav li a {
+    color: black !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+    border-radius: 16px;
+    font-size: 1em;
+  }
+  .navbar-nav li a:hover{
+      background-color: rgb(93, 151, 245);
+      transition: 0.5s;
+      color: white;
+  }
+ 
+
+  
+  .fa-bars {
+    color:black;
+    font-size: 20px !important;
+    margin-right: 10px;
+    
+  }
+  
+  .navbar-toggler {
+    outline: none !important;
+    
+  }
+/* topimage */
+/* .mainimage{
+  /* padding-right: 0px;
+  padding-left: 0px; 
+} */
+
+
+
+/* top news */
+.newstab{
+  background-color:rgb(45, 120, 241) ;
+  color: white;
+  margin-top: 10px;
+  height: 25px;
+}
+
+
+/* intro */
+.intro{
+  margin-top: 40px;
+  text-align: center;  
+}
+.intrologo{
+  padding-top: -10px;
+  padding-bottom: 20px;
+  
+}
+.infotext{
+  text-align: left;
+  padding-left: 55px ;
+  color: rgb(170, 168, 168);
+  font-size: medium;
+}
+
+/* target */
+.target{
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: royalblue;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 80px;
+  font-size: 50px;
+
+}
+
+
+.whatwe{
+  text-align: center;
+  margin-top: 120px;
+  padding-top: -10px;
+
+}
+
+.whatdo{
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 60px;
+}
+.whatdo h4{
+  color: rgb(94, 94, 243);
+}
+
+
+
+
+
+.missionevents{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.mission h5{
+  color: royalblue;
+}
+
+.mission .col-md-6{
+    padding: 10px;
+    margin: 5px;
+} 
+
+
+
+
+
+.imagegallery{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.ourimage{
+text-align: center;
+}
+.imagegallery img{
+  padding: 8px;
+}
+
+
+
+.ourinfo{
+ 
+  background-color: rgb(37,39,46);
+  color: white;
+  padding-bottom: 5px;
+}
+ .contact li , p {
+   list-style: none;
+   padding: 5px;
+   font-size: small;
+   color: rgb(184, 180, 180);
+ }
+
+ .contact li i{
+   padding-right: 20px;
+   color: green;
+ }
+ .main p{
+  font-size: small;
+  color: rgb(184, 180, 180);
+  margin-top: 170px;
+}
+.sicons{
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 26px
+}
+.sicons li{
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 19px;
+  background-color: royalblue;
+  margin: 5px;
+
+}
+.sicons li i{
+  color: aliceblue;
+}
+
+
+
+
+.copyright{
+  background-color: royalblue;
+}
+
+.copytext{
+  padding-top: 9px
+}
+
+
+
+
+
+
+.all{
+  height: 3px;
+width: 70px;
+display: block;
+background: green ;
+}
